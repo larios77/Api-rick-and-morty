@@ -1,0 +1,14 @@
+.logo {
+  margin: 0 auto 30px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 400px;
+}
+@media screen and (max-width: 400px) {
+  .logo img {
+    width: 300px;
+  }
+}
